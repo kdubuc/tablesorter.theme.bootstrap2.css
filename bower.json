@@ -1,0 +1,8 @@
+{
+  "name": "tablesorter.theme.bootstrap2.css",
+  "version": "1.0.0",
+  "main": "css/theme.bootstrap2.css",
+  "dependencies ": {
+    "jquery.tablesorter" : "2.*.*"
+  }
+}
