@@ -1,6 +1,6 @@
 /* Kévin DUBUC - Twitter Bootstrap 2.* theme for tablesorter 2.* */
 
-// Headers
+/* Headers */
 .tablesorter-bootstrap2 .header,
 .tablesorter-bootstrap2 .tablesorter-header {
 	background-image: url(data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==);
@@ -10,7 +10,6 @@
 	white-space: normal;
 }
 
-// Headers and sort style
 .tablesorter-bootstrap2 thead .headerSortUp,
 .tablesorter-bootstrap2 thead .tablesorter-headerSortUp,
 .tablesorter-bootstrap2 thead .tablesorter-headerAsc {
@@ -23,16 +22,20 @@
 	background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7);
 }
 
-// Table processing indicator
-// untested
+.tablesorter-bootstrap2 thead .sorter-false {
+	background-image: none;
+}
+
+/* Table processing indicator
+ * untested */
 .tablesorter-bootstrap2 .tablesorter-processing {
 	background-position: center center !important;
 	background-repeat: no-repeat !important;
 	background-image: url('data:image/gif;base64,R0lGODlhFAAUAKEAAO7u7lpaWgAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQBCgACACwAAAAAFAAUAAACQZRvoIDtu1wLQUAlqKTVxqwhXIiBnDg6Y4eyx4lKW5XK7wrLeK3vbq8J2W4T4e1nMhpWrZCTt3xKZ8kgsggdJmUFACH5BAEKAAIALAcAAAALAAcAAAIUVB6ii7jajgCAuUmtovxtXnmdUAAAIfkEAQoAAgAsDQACAAcACwAAAhRUIpmHy/3gUVQAQO9NetuugCFWAAAh+QQBCgACACwNAAcABwALAAACE5QVcZjKbVo6ck2AF95m5/6BSwEAIfkEAQoAAgAsBwANAAsABwAAAhOUH3kr6QaAcSrGWe1VQl+mMUIBACH5BAEKAAIALAIADQALAAcAAAIUlICmh7ncTAgqijkruDiv7n2YUAAAIfkEAQoAAgAsAAAHAAcACwAAAhQUIGmHyedehIoqFXLKfPOAaZdWAAAh+QQFCgACACwAAAIABwALAAACFJQFcJiXb15zLYRl7cla8OtlGGgUADs=') !important;
 }
 
-// filter widget
-// untested
+/* filter widget
+ * untested */
 .tablesorter-bootstrap2 .tablesorter-filter-row td {
 	text-align: center; /* center the input */
 	-webkit-transition: line-height 0.1s ease;
@@ -41,8 +44,8 @@
 	transition: line-height 0.1s ease;
 }
 
-// hidden filter row
-// untested
+/* hidden filter row
+ * untested */
 .tablesorter-bootstrap2 .tablesorter-filter-row.hideme td {
 	padding: 2px;
 	margin: 0;
@@ -60,8 +63,8 @@
 	filter: alpha(opacity=0);
 }
 
-// filters
-// untested
+/* filters
+ * untested */
 .tablesorter-bootstrap2 .tablesorter-filter {
 	width: 95%;
 	height: auto;
